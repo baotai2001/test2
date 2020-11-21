@@ -1,0 +1,97 @@
+/* section */
+
+.section-shop {
+    text-align: center;
+    width: 98%;
+}
+
+.section-shop a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.section-shop p {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 53pt;
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.button-shop {
+    text-align: center;
+    width: 98%;
+}
+
+.button-shop a {
+    background-color: black;
+    color: white;
+    padding: 9px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.container-collection {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.
+/*--Trending--*/
+
+
+/*--footer--*/
+
+.text-banner-a p {
+    position: absolute;
+    margin-top: -19vw;
+    margin-left: 4vw;
+}
+
+.dna-a {
+    color: whitesmoke;
+    font-size: 21pt;
+}
+
+.text-banner-a .dna-a {
+    font: inherit;
+    vertical-align: baseline;
+    font-weight: 400;
+    margin: 0;
+    color: whitesmoke;
+    position: absolute;
+    margin-top: -20vw;
+    margin-left: 4vw;
+    font-size: 21pt;
+}
+
+.air-a {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 62pt;
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+}
+
+.shop-now-a {
+    background-color: white;
+    border-radius: 50px;
+    height: 30px;
+    position: absolute;
+    margin-top: -6vw;
+    margin-left: 4vw;
+}
+
+.shop-now-a a {
+    background-color: rgba(128, 128, 128, 0.253);
+    color: rgb(0, 0, 0);
+    padding: 9px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+}

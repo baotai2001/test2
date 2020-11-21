@@ -1,0 +1,113 @@
+body {
+    background-color: pink;
+    font-family: Helvetica;
+}
+
+h2 {
+    color: #111;
+    font-family: Helvetica!important;
+    font-size: 26px;
+    margin: 0 auto;
+    max-width: 25ch;
+    padding: -1px 0 26px;
+    text-align: center;
+    font-weight: 700;
+}
+
+form {
+    width: 40vw;
+    margin: 0 auto;
+    border: none;
+    background-color: white;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img {
+    margin: 3.5vw;
+    width: 40%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    margin-left: 18vw;
+}
+
+.modal p.term {
+    clear: both;
+    font-size: 12px;
+    line-height: 16px;
+    padding: -1px 0 24px;
+    margin-top: 1.5vw;
+}
+
+.modal p {
+    text-align: center;
+}
+
+input[type="checkbox"],
+span {
+    font-size: 12px;
+    margin-top: 1.5vw;
+}
+
+span {
+    color: gray;
+}
+
+span.jus {
+    margin-left: 15vw;
+}
+
+span.jus a {
+    color: black;
+}
+
+span.psw a {
+    color: gray;
+    text-decoration: none;
+}
+
+.term a {
+    color: gray;
+}
+
+p.term {
+    color: gray;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}

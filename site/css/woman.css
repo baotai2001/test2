@@ -1,0 +1,227 @@
+.bot {
+    position: relative;
+}
+
+.bot {
+    width: 50%;
+    margin-left: 20vw;
+}
+
+.bot ul li {
+    list-style: none;
+}
+
+.bot ul li.gach {
+    font-size: 12px;
+}
+
+.bot .bot-mot {
+    font-size: 14px;
+}
+
+.bot ul li a {
+    font-family: Nike TG, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.bot a {
+    color: black;
+    text-decoration: none;
+}
+
+.bot-mot {
+    margin-left: -18%;
+    float: left;
+    min-height: 200px;
+    line-height: 35px;
+    margin-top: 4%;
+}
+
+.bot-hai {
+    margin-left: 5%;
+    float: left;
+    min-height: 200px;
+    line-height: 35px;
+    margin-top: 4%;
+}
+
+.bot-hai,
+.bot-mot span {
+    color: darkgrey;
+    font-size: 10pt;
+}
+
+.bot-ba {
+    margin-left: 5%;
+    float: left;
+    min-height: 200px;
+    line-height: 35px;
+    margin-top: 4%;
+}
+
+.bot-bon {
+    margin-left: 4%;
+    float: left;
+    min-height: 200px;
+    line-height: 35px;
+    margin-top: 4%;
+}
+
+.bot-bon span {
+    color: darkgrey;
+    font-size: 10pt;
+}
+
+.bot-ba span {
+    color: darkgrey;
+    font-size: 10pt;
+}
+
+.boxcenter {
+    width: 92%;
+    margin: 0 auto;
+}
+
+
+/* Top Nav */
+
+
+/* Nav */
+
+.mn3 {
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    height: 70px;
+    line-height: 60px;
+}
+
+.menu2 ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-left: 0.5vw;
+}
+
+.menu2 ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 40px;
+    font-size: 15pt;
+}
+
+.menu2 ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13pt;
+}
+
+.menu3 ul {
+    text-align: center;
+    margin-left: 0.5vw;
+}
+
+.menu3 ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 40px;
+}
+
+.menu3 ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13pt;
+    margin-top: 10vw;
+}
+
+.women {
+    font-size: 20pt;
+}
+
+.p2 p.price {
+    margin-left: 13vw;
+}
+
+
+/* Search */
+
+
+/* Favorite */
+
+
+/* Banner */
+
+
+/* Trending */
+
+.text-trending {
+    font-weight: 400;
+    font-size: 18pt;
+    font-family: sans-serif;
+}
+
+.container-trending {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+}
+
+.container-trending2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.1fr;
+}
+
+.itemsgrid {
+    position: relative;
+}
+
+.itemsgrid img {
+    width: 98%;
+    height: 510px;
+}
+
+.itemsgrid2 {
+    position: relative;
+    width: 100%;
+}
+
+.itemsgrid2 img {
+    width: 97%;
+    height: 500px;
+}
+
+.text-name-project {
+    font-family: sans-serif;
+    position: absolute;
+    top: 78%;
+    left: 7%;
+}
+
+.text-name-project a {
+    font-family: sans-serif;
+    font-size: 15pt;
+    text-decoration: none;
+    color: white;
+}
+
+.shop-now-trending {
+    position: absolute;
+    top: 85%;
+    left: 7%;
+    border-radius: 50px;
+    height: 30px;
+}
+
+.shop-now-trending a {
+    background-color: white;
+    color: black;
+    padding: 9px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.women {
+    text-align: left;
+}

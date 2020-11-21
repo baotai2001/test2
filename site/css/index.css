@@ -1,0 +1,452 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: inherit;
+}
+
+.boxcenter {
+    width: 92%;
+    margin: 0 auto;
+}
+
+
+/* Top Nav */
+
+.top-bar {
+    height: 40px;
+    line-height: 40px;
+    background-color: whitesmoke;
+}
+
+.top-bar .logo {
+    width: 50px;
+    height: 40px;
+    float: left;
+    padding-top: 5px;
+    margin-left: 15px;
+}
+
+.top-bar .logo img {
+    width: 20px;
+}
+
+.help-user-menu {
+    float: right;
+}
+
+.help-user-menu a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 9pt;
+    font-weight: 500;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+/* Nav */
+
+nav {
+    display: grid;
+    grid-template-columns: auto auto 0.4fr;
+    width: 100%;
+    height: 40px;
+    line-height: 60px;
+}
+
+.logo-shop {
+    height: 60px;
+}
+
+.logo-shop img {
+    width: 100px;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 40px;
+    font-size: 15pt;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.men-menu ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-top: -48px;
+}
+
+.men-menu ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 40px;
+    font-size: 15pt;
+}
+
+.men-menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.men-menu {
+    color: black;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 9pt;
+    font-weight: 500;
+    width: 93%;
+}
+
+
+/* Search */
+
+.user-search {
+    text-align: right;
+}
+
+.user-search a {
+    color: black;
+}
+
+.user-search .search {
+    background-color: whitesmoke;
+    width: 260px;
+    height: 40px;
+    float: left;
+    border-radius: 20px;
+    margin-top: 11px;
+}
+
+.user-search .btnsearch {
+    float: left;
+    border-radius: 20px;
+    border: none;
+    width: 60px;
+    height: 40px;
+    background-color: whitesmoke;
+}
+
+.user-search .btnsearch:hover {
+    background-color: gainsboro;
+}
+
+.user-search input {
+    float: left;
+    border: none;
+    width: 200px;
+    height: 40px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+
+/* Favorite */
+
+.user-search .favorite {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.user-search .favorite:hover {
+    background-color: gainsboro;
+}
+
+
+/* Banner */
+
+.container-banner {
+    float: left;
+    position: relative;
+    width: 100%;
+    min-height: 600px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.text-banner {
+    position: absolute;
+    top: 72%;
+    left: 3%;
+}
+
+.text-banner .dna {
+    font: inherit;
+    vertical-align: baseline;
+    font-weight: 400;
+    margin: 0;
+}
+
+.air {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 56pt;
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.shop-now {
+    position: absolute;
+    top: 90%;
+    left: 3%;
+    background-color: black;
+    border-radius: 50px;
+    height: 30px;
+}
+
+.shop-now a {
+    background-color: black;
+    color: white;
+    padding: 9px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.mrbot {
+    margin-bottom: 70px;
+}
+
+
+/* Trending */
+
+.text-trending {
+    font-weight: 400;
+    font-size: 18pt;
+    font-family: sans-serif;
+}
+
+.container-trending {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.itemsgrid {
+    padding: 10px;
+    position: relative;
+}
+
+.itemsgrid img {
+    width: 100%;
+    height: 510px;
+}
+
+.text-name-project {
+    font-family: sans-serif;
+    position: absolute;
+    top: 71%;
+    left: 7%;
+    font-size: 20pt;
+}
+
+.shop-now-trending {
+    position: absolute;
+    top: 85%;
+    left: 7%;
+    background-color: black;
+    border-radius: 50px;
+    height: 30px;
+}
+
+.shop-now-trending a {
+    background-color: black;
+    color: white;
+    padding: 9px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+
+/* Featured */
+
+.shop-now-featured {
+    border-radius: 50px;
+    height: 30px;
+}
+
+.shop-now-featured a {
+    background-color: black;
+    color: white;
+    padding: 9px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    font-family: sans-serif;
+}
+
+.container-featured {
+    text-align: center;
+}
+
+.container-featured img {
+    width: 100%;
+}
+
+.container-featured p {
+    font-size: 13pt;
+    font-family: sans-serif;
+    margin: 25px;
+}
+
+
+/* Explore the Wild Run Collection */
+
+.container-collection {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.items {
+    padding: 10px;
+}
+
+.items img {
+    width: 100%;
+    height: 417px;
+}
+
+.name-collection {
+    float: left;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 11pt;
+}
+
+.name-items {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.nameCata-items {
+    margin-top: 0;
+    color: grey;
+}
+
+.price-items {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 11pt;
+}
+
+.term {
+    text-align: center;
+}
+
+.term a {
+    text-decoration: none;
+    color: black;
+}
+
+.term2 {
+    text-align: center;
+}
+
+.term2 a {
+    font-size: 70px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: black;
+    min-height: 300px;
+}
+
+.footer-trai {
+    width: 50%;
+}
+
+.footer-trai a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-mot {
+    margin-left: 5%;
+    float: left;
+    min-height: 200px;
+    line-height: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 4%;
+}
+
+.footer-hai {
+    margin-left: 5%;
+    float: left;
+    min-height: 200px;
+    line-height: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 4%;
+}
+
+.footer-hai span {
+    color: darkgrey;
+    font-size: 10pt;
+}
+
+.footer-ba {
+    margin-left: 5%;
+    float: left;
+    min-height: 200px;
+    line-height: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 4%;
+}
+
+.footer-ba span {
+    color: darkgrey;
+    font-size: 10pt;
+}
+
+.footer-phai {
+    position: fixed;
+    left: 80%;
+    display: inline-block;
+    margin-top: 2%;
+}
+
+.footer-phai a {
+    padding-left: 27px;
+}
+
+
+/*Tai sua css */
+
+a {
+    width: 100px;
+    text-decoration: none;
+}
